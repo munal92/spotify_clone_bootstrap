@@ -81,6 +81,7 @@ body{
     color: #fff;
     text-align: center;
     display: flex;
+    
 }
 
 #midSec h1{
@@ -209,7 +210,7 @@ body{
     #midSec button{
         font-weight: bolder;
         font-size: 15px;
-        margin: 2rem 0 0;
+        margin: 2rem 0 2rem 0;
         align-items: center;
        
     }
@@ -295,7 +296,7 @@ body{
       
       
         min-height: 40vh;   
-       
+        
        
        
     }
