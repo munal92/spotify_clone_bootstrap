@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFCDD2 !important;
+    /* font-family: 'Montserrat', sans-serif !important; */
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    
+}
+
+.navbar{
+    background-color: black ;
+    background: rgba(0, 0, 0, 0.6);
+    color:whitesmoke !important;
+    
+    /* padding: 0 !important; */
+    /* padding-left: 12rem !important;
+    padding-right: 12rem !important; */
+}
+.navbar img{
+  
+   
+    height: 40px;
+}
+
+.navbar li{
+  
+   margin-left: 1.4rem !important;
+   color: whitesmoke !important; 
+}
+.navbar a{
+  
+  
+    color: whitesmoke !important; 
+    font-weight: 700;
+ }
+
+.vertical-line-icon {
+    border-right: 3px solid white; 
+    height: 1.1rem;
+    /* margin-top: 0.8rem; */
+    align-self: center;            
+           
+  }
+  
+#header{
+    
+    min-height: 70vh;
+    margin: 2rem;
+    padding: 0 9rem 0 9rem ;
+}
+
+#header h1{
+    font-weight: bolder;
+    font-size: 80px;
+}
+#header h4{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 2rem 0 0;
+   
+}
+
+#header button{
+    font-weight: bolder;
+    font-size: 20px !important;
+    margin: 3rem 0 0;
+    align-items: center;
+   
+}
+#header h6{
+    font-weight: 500;
+    font-size: 12px;
+    margin: 2rem 0 0;
+    padding: 0 14rem 0 14rem ;
+}
+
+/* <-- MID SECTION --> */
+
+
+#midSec{
+    background: url(https://campaigns.scdn.co/images/hero-burst-mobile.svg) no-repeat center/878px 676px,linear-gradient(#F037A5 -60%,#FAE62D 140%);
+    height: 70vh;   
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+#midSec h1{
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+#midSec h4{
+    font-weight: 500;
+    font-size: 24px;
+    margin: 2rem 0 0;
+}
+
+#midSec button{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 3rem 0 0;
+    align-items: center;
+   
+}
+
+/* <-- FOOTER SECTION --> */
+#footerSec{
+    background: black;
+    height: 70vh;   
+    padding:80px 0px 50px ;
+}
+#footerSec img{
+    height: 40px;
+   
+}
+
+
+ #footerSec button{
+    background: #222326 !important;
+    border: none;
+    margin-right: 15px;
+} 
+
+#footerSec h6{
+    color: #919496 !important;
+    margin: 25px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: 700;
+} 
+
+#footerSec h5{
+    color: whitesmoke !important;
+    margin: 25px 0px 0px 0px ;
+    
+    font-size: 16px;
+} 
+/* #footerSec i{
+    background: white  ;
+} */
