@@ -7,14 +7,10 @@ body{
     /* font-family: 'Montserrat', sans-serif !important; */
     
 }
-#nav-bar{
-    position: sticky;
-    top: 0;
-    
-}
+
 
 .navbar{
-    background-color: black ;
+   
     background: rgba(0, 0, 0, 0.6);
     color:whitesmoke !important;
     
@@ -52,7 +48,7 @@ body{
     
     min-height: 70vh;
     margin: 2rem;
-    padding: 0 9rem 0 9rem ;
+    padding: 4.5rem 8rem 0 8rem ;
 }
 
 #header h1{
@@ -77,7 +73,7 @@ body{
     font-weight: 500;
     font-size: 12px;
     margin: 2rem 0 0;
-    padding: 0 14rem 0 14rem ;
+   
 }
 
 /* <-- MID SECTION --> */
@@ -85,7 +81,7 @@ body{
 
 #midSec{
     background: url(https://campaigns.scdn.co/images/hero-burst-mobile.svg) no-repeat center/878px 676px,linear-gradient(#F037A5 -60%,#FAE62D 140%);
-    height: 70vh;   
+    min-height: 70vh;   
     color: #fff;
     text-align: center;
     display: flex;
@@ -144,3 +140,320 @@ body{
 /* #footerSec i{
     background: white  ;
 } */
+
+
+
+@media (max-width: 1000px) { 
+    
+    .navbar{
+        background-color: black ;
+        background: rgba(0, 0, 0, 1);
+        color:whitesmoke !important;
+        
+        /* padding: 0 !important; */
+        /* padding-left: 12rem !important;
+        padding-right: 12rem !important; */
+    }
+    .vertical-line-icon {
+        border-right: 3px solid white; 
+        height: 1.1rem;
+        /* margin-top: 0.8rem; */
+        transform: rotate(90deg);
+        margin: 5px 0px 6px 10px;
+        padding-left: 10px;
+        
+        align-self:flex-start;            
+               
+      }
+      
+    #header{
+    
+        min-height: 76vh;
+        padding:  4.5rem 0  0rem  0rem;
+    }
+    
+    #header h1{
+        font-weight: bolder;
+        font-size: 75px;
+    }
+    #header h4{
+        
+        font-size: 25px;
+        margin: 2rem 0 0;
+       
+    }
+    
+    #header button{
+        font-weight: bolder;
+        font-size: 20px !important;
+        margin: 2rem 0 0;
+        align-items: center;
+       
+    }
+    #header h6{
+        font-weight: 500;
+        font-size: 12px;
+        margin: 2rem 0 0;
+        padding: 0rem ;
+    } 
+
+    #midSec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 65vh;
+    }
+    
+    #midSec h1{
+        font-weight: bolder;
+        font-size: 80px;
+      
+    }
+    
+    #footerSec{
+        background: black;
+        min-height: 92vh;
+        padding:40px 20px 0px 20px ;
+    }
+    #footerSec img{
+        height: 30px;
+        padding-left: 0px;
+    }
+    
+    
+     #footerSec button{
+        background: #222326 !important;
+        border: none;
+        margin-right: 15px;
+    } 
+    
+    #footerSec h6{
+        color: #919496 !important;
+        margin: 25px 0px 0px 0px;
+        font-size: 12px;
+        font-weight: 700;
+    } 
+    
+    #footerSec h5{
+        color: whitesmoke !important;
+        margin: 25px 0px 0px 0px ;
+        
+        font-size: 16px;
+    } 
+    
+    .socialFot{
+        display: flex;
+       align-items: flex-start !important;
+       margin-top: 2rem;
+    }
+ 
+
+
+}
+/* // Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) { 
+    
+  
+      
+    #header{
+    
+        min-height: 50vh;
+        padding:  4.5rem 0  0rem  0rem;
+    }
+    
+    #header h1{
+        font-weight: bolder;
+        font-size: 65px;
+    }
+    #header h4{
+        
+        font-size: 25px;
+        margin: 2rem 0 0;
+       
+    }
+    
+    #header button{
+        font-weight: bolder;
+        font-size: 20px !important;
+        margin: 2rem 0 0;
+        align-items: center;
+       
+    }
+    #header h6{
+        font-weight: 500;
+        font-size: 12px;
+        margin: 2rem 0 0;
+        padding: 0rem ;
+    } 
+
+    #midSec{
+      
+      
+        min-height: 40vh;   
+       
+       
+       
+    }
+    
+    #midSec h1{
+        font-weight: bolder;
+        font-size: 40px;
+        margin: 0rem 0 0;
+    }
+    #midSec button{
+        font-weight: bolder;
+        font-size: 15px;
+        margin: 1rem 0 0;
+        align-items: center;
+        
+    }
+    #footerSec{
+        background: black;
+        min-height: 92vh;
+        padding:40px 0px 0px 0px ;
+        height: 100%;
+    }
+    #footerSec img{
+        height: 30px;
+        padding-left: 0px;
+    }
+    
+    
+    
+    #footerSec h6{
+        color: #919496 !important;
+        margin: 25px 0px 0px 0px;
+        font-size: 12px;
+        font-weight: 700;
+    } 
+    
+    #footerSec h5{
+        color: whitesmoke !important;
+        margin: 25px 0px 0px 0px ;
+        
+        font-size: 16px;
+    } 
+    
+    .socialFot{
+        display: flex;
+       align-items: flex-start !important;
+       margin-top: 2rem;
+    }
+ 
+
+
+}
+
+
+/* ///// mobile format */
+@media (max-width: 576px) { 
+    .navbar{
+        background-color: black ;
+        background: rgba(0, 0, 0, 1);
+        color:whitesmoke !important;
+        
+        /* padding: 0 !important; */
+        /* padding-left: 12rem !important;
+        padding-right: 12rem !important; */
+    }
+    .vertical-line-icon {
+        border-right: 3px solid white; 
+        height: 1.1rem;
+        /* margin-top: 0.8rem; */
+        transform: rotate(90deg);
+        margin: 5px 0px 6px 10px;
+        padding-left: 10px;
+        
+        align-self:flex-start;            
+               
+      }
+      
+    #header{
+    
+        padding: 4.5rem 0rem 0 0rem ;
+}
+ 
+    
+    #header h1{
+        font-weight: bolder;
+        font-size: 45px;
+    }
+    #header h4{
+        
+        font-size: 22px;
+        margin: 2rem 0 0;
+       
+    }
+    
+    #header button{
+        font-weight: bolder;
+        font-size: 20px !important;
+        margin: 2rem 0 0;
+        align-items: center;
+       
+    }
+    #header h6{
+        font-weight: 500;
+        font-size: 12px;
+        margin: 2rem 0 0;
+        padding: 0rem ;
+    } 
+
+    #midSec{
+      
+      
+        min-height: 40vh;   
+       
+       
+       
+    }
+    
+    #midSec h1{
+        font-weight: bolder;
+        font-size: 40px;
+        margin: 0rem 0 0;
+    }
+    #midSec button{
+        font-weight: bolder;
+        font-size: 15px;
+        margin: 1rem 0 0;
+        align-items: center;
+        
+    }
+    
+    #footerSec{
+        background: black;
+        min-height: 92vh;
+        padding:40px 0px 0px 0px ;
+        height: 100%;
+    }
+    #footerSec img{
+        height: 30px;
+        padding-left: 0px;
+    }
+    
+    
+   
+    #footerSec h6{
+        color: #919496 !important;
+        margin: 25px 0px 0px 0px;
+        font-size: 12px;
+        font-weight: 700;
+    } 
+    
+    #footerSec h5{
+        color: whitesmoke !important;
+        margin: 25px 0px 0px 0px ;
+        
+        font-size: 16px;
+    } 
+    .socialFot{
+        display: flex;
+        align-items: flex-start !important;
+        margin-top: 2rem;
+    }
+
+
+}
+
