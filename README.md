@@ -1,1 +1,3 @@
 # spotify_clone_bootstrap
+
+First time used bootstrap to clone Spotify landing page. (Desktop Design Only)
